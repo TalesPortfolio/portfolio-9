@@ -1,6 +1,6 @@
-import Titulo from '../../components/Titulo'
-import Paragrafo from '../../components/Paragrafo'
-import { GithubSecao } from './styles'
+import Titulo from "../../components/Titulo";
+import Paragrafo from "../../components/Paragrafo";
+import { GithubSecao } from "./styles";
 
 const Sobre = () => (
   <section>
@@ -16,6 +16,6 @@ const Sobre = () => (
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tales1982&layout=compact&theme=tokyonight" />
     </GithubSecao>
   </section>
-)
+);
 
-export default Sobre
+export default Sobre;
