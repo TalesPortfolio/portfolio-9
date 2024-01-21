@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import MyButton2 from '../Button'
 import { Color } from '../../styles'
 
 export const Card = styled.div`
@@ -6,6 +7,6 @@ export const Card = styled.div`
 `
 export const Span = styled.span`
   p {
-    color: ${Color.destaqueParagrafo};
+    color: #000;
   }
 `

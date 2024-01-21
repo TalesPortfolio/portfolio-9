@@ -6,7 +6,8 @@ import { Color } from '../../styles'
 export type Props = {
   h2?: string
   p?: string
-  tecnoligia?: string
+  tecnologia?: string // Corrected typo here
+  link?: string
 }
 
 const Cards = (props: Props) => (
@@ -14,10 +15,15 @@ const Cards = (props: Props) => (
     <H2>{props.h2}</H2>
     <P>{props.p}</P>
     <Span>
-      <P>{props.tecnoligia}</P>
+      <P>{props.tecnologia}</P>
     </Span>
 
-    <MyButton2 border={`2px solid ${Color.bordBtn2}`}>View</MyButton2>
+    <MyButton2 border={`2px solid ${Color.bordBtn2}`}>
+      {' '}
+      <a href={props.link} target="_blank" rel="noreferrer">
+        View
+      </a>{' '}
+    </MyButton2>
   </Card>
 )
 

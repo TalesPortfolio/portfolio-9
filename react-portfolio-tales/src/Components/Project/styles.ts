@@ -24,28 +24,39 @@ export const ProjectStyle = styled.section`
     }
   }
 `
+
 export const ContainerCards = styled.div`
   border: 2px solid ${Color.destaqueParagrafo};
   border-radius: 10px;
   width: 300px;
   margin: 20px;
+  overflow: hidden;
+  position: relative;
+  background-color: #4876ff;
 
   @media (max-width: 768px) {
-    width: 300px;
     margin: 0px;
     margin-bottom: 20px;
   }
+
   img {
     height: 180px;
-    width: 300px;
+    width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1); /* Define a escala desejada ao passar o mouse */
+    }
 
     @media (max-width: 768px) {
       width: 300px;
     }
   }
 `
+
 export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
