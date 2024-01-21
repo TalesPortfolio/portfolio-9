@@ -8,7 +8,7 @@ export const EsperienceStyle = styled.section`
   width: 100%;
   justify-content: center;
   background-color: ${Color.bg2};
-  height: 100vh;
+  height: 700px;
   padding-top: 100px;
 
   @media (max-width: 768px) {
@@ -57,8 +57,13 @@ export const ContentTabs = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
-  flex: 40%;
-  padding-right: 500px;
+  flex: 60%;
+  padding-right: 100px;
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    padding-right: 0px;
+    padding: 10px;
+  }
 
   @media (max-width: 768px) {
     padding-right: 0px;
