@@ -12,6 +12,7 @@ const StyledButton = styled.button<ButtonProps>`
   border-radius: 5px;
   cursor: pointer;
   margin-right: 50px;
+  color: #fff;
 
   &:hover {
     background-color: #40e0d969;

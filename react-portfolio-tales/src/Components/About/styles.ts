@@ -56,6 +56,7 @@ export const P = styled.p`
 
   @media (max-width: 768px) {
     text-align: justify;
+    font-size: 16px;
   }
 `
 
@@ -68,6 +69,7 @@ export const H2 = styled.h2`
   @media (max-width: 768px) {
     margin-top: 15px;
     text-align: center;
+    font-size: 22px;
   }
 `
 export const H4 = styled.h4`
