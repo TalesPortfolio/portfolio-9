@@ -13,8 +13,9 @@ export const ProjectStyle = styled.section`
   h3 {
     color: ${Color.colorTitle};
     font-size: 40px;
-    padding-left: 320px;
+    padding-left: 0px;
     align-items: center;
+    text-decoration: underline;
 
     @media (max-width: 768px) {
       padding: 0;
@@ -47,8 +48,10 @@ export const ContainerCards = styled.div`
 `
 export const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  max-width: 1024px;
 
   @media (min-width: 769px) and (max-width: 1024px) {
     flex-wrap: wrap;

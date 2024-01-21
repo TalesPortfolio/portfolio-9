@@ -1,5 +1,4 @@
 import { ProjectStyle, ContainerCards, Container } from './styles'
-import { H2 } from '../About/styles'
 import Cards from '../Cards'
 
 const Project = () => (
@@ -9,9 +8,9 @@ const Project = () => (
       <ContainerCards>
         <img src="//placehold.it/396x180" />
         <Cards
-          h2="Nome do Projetos1"
-          p="descrisao do projetos"
-          tecnoligia="Tecnologias usadas no projeto: HTML, CSS e JS.
+          h2="Clone SpaceX"
+          p="I developed a clone of the SpaceX website as part of my training to improve my development skills."
+          tecnoligia="Technologies used in the project: HTML, SAAS BOOTSTRAP and JS.
 "
         />
       </ContainerCards>
@@ -35,6 +34,33 @@ const Project = () => (
       </ContainerCards>
     </Container>
     <Container>
+      <ContainerCards>
+        <img src="//placehold.it/396x180" />
+        <Cards
+          h2="Nome do Projetos1"
+          p="descrisao do projetos"
+          tecnoligia="Tecnologias usadas no projeto: HTML, CSS e JS.
+"
+        />
+      </ContainerCards>
+      <ContainerCards>
+        <img src="//placehold.it/396x180" />
+        <Cards
+          h2="Nome do Projetos1"
+          p="descrisao do projetos"
+          tecnoligia="Tecnologias usadas no projeto: HTML, CSS e JS.
+"
+        />
+      </ContainerCards>
+      <ContainerCards>
+        <img src="//placehold.it/396x180" />
+        <Cards
+          h2="Nome do Projetos1"
+          p="descrisao do projetos"
+          tecnoligia="Tecnologias usadas no projeto: HTML, CSS e JS.
+"
+        />
+      </ContainerCards>
       <ContainerCards>
         <img src="//placehold.it/396x180" />
         <Cards

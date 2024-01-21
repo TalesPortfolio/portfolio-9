@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Color } from '../../styles'
+import { Color, Container } from '../../styles'
 
 export const EsperienceStyle = styled.section`
   display: flex;
@@ -69,4 +69,9 @@ export const ContentTabs = styled.div`
     padding-right: 0px;
     padding: 10px;
   }
+`
+export const ContainerProject = styled.div`
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
 `
