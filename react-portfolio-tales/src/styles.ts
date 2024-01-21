@@ -11,6 +11,12 @@ export const Color = {
   paragrafo: '#c4c4c4'
 }
 
+export const Container = styled.div`
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+`
+
 const GlobalStyle = createGlobalStyle`
   * {
     margin: 0;
@@ -28,6 +34,7 @@ const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar-thumb {
     background-color: ${Color.colorTitle};
+  }
 
   ::-webkit-scrollbar-track {
     background-color: #f0f0f0;
@@ -39,9 +46,3 @@ const GlobalStyle = createGlobalStyle`
 `
 
 export default GlobalStyle
-
-export const Container = styled.div`
-  max-width: 1440px;
-  width: 100%;
-  display: flex;
-`
