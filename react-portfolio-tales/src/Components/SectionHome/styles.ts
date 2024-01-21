@@ -10,10 +10,31 @@ const aparecer = keyframes`
   }
 `
 
+const arrowAnimation = keyframes`
+ 0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+`
+const growImage = keyframes`
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+`
+
 export const Home = styled.section`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 80px;
   height: 100vh;
   width: 100%;
@@ -24,7 +45,7 @@ export const Home = styled.section`
 export const Description = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   flex: 50%;
 
@@ -47,6 +68,16 @@ export const Description = styled.div`
     mask-size: 200% 100%;
     animation: ${aparecer} 3s infinite;
   }
+
+  @media (max-width: 768px) {
+    flex: 100%;
+    p {
+      font-size: 26px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+  }
 `
 
 export const DivImage = styled.div`
@@ -67,4 +98,36 @@ export const DivImage = styled.div`
     mask-size: 200% 100%;
     animation: ${aparecer} 3s infinite;
   }
+
+  &:hover img {
+    transform: scale(1.1); /* Aumentando a escala no hover */
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+`
+
+export const SpanScroll = styled.span`
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 100px;
+
+  @media (max-width: 768px) {
+    margin-top: 10px;
+  }
+`
+export const Arrow = styled.div`
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid ${Color.colorTitle}; /* Cor da seta (verde no exemplo) */
+  position: relative;
+  margin: 50px auto;
+  animation: ${arrowAnimation} 2s infinite;
+`
+export const AlingButton = styled.div`
+  margin-top: 10px;
+  margin-bottom: 20px;
 `

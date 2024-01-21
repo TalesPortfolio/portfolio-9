@@ -7,16 +7,20 @@ const Header = () => (
       <h2>&lt;TL/&gt;</h2>
       <ul>
         <li>
-          <a href="#">Home</a>
+          {/* Adicione o identificador "home" à seção Home */}
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          {/* Adicione o identificador "about" à seção About */}
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Experience</a>
+          {/* Adicione o identificador "experience" à seção Experience */}
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#">Project</a>
+          {/* Adicione o identificador "project" à seção Project */}
+          <a href="#project">Project</a>
         </li>
       </ul>
     </Container>

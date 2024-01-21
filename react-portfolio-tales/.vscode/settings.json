@@ -2,5 +2,6 @@
   "editor.formatOnSave": false,
   "editor.codeActionOnSave": {
     "soucer.fixAll.eslint": true
-  }
+  },
+  "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }

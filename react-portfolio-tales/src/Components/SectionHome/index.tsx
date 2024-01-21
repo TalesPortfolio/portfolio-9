@@ -1,6 +1,13 @@
 import React from 'react'
 import { Container } from '../../styles'
-import { Home, Description, DivImage } from './styles'
+import {
+  Home,
+  Description,
+  DivImage,
+  SpanScroll,
+  Arrow,
+  AlingButton
+} from './styles'
 import MyButton from '../Button'
 import { Color } from '../../styles'
 import { StyleLink } from '../Button/styles'
@@ -17,13 +24,13 @@ const SectionHome = () => {
   }
 
   return (
-    <Home>
+    <Home id="home">
       <Container>
         <Description>
           <p>Hello, I am</p>
           <h1>TALES LIMA</h1>
           <p>FULL STACK DEVELOPER</p>
-          <div>
+          <AlingButton>
             <MyButton onClick={handleLinkedInClick}>
               <StyleLink
                 href="https://www.linkedin.com/in/tales-lima-de-paula-900097242/"
@@ -42,12 +49,18 @@ const SectionHome = () => {
                 GITHUB
               </StyleLink>
             </MyButton>
-          </div>
+          </AlingButton>
         </Description>
         <DivImage>
           <img src="/images/dev2.svg" alt="Developer" />
         </DivImage>
       </Container>
+      <SpanScroll>
+        scroll down{' '}
+        <a href="#about">
+          <Arrow></Arrow>
+        </a>
+      </SpanScroll>
     </Home>
   )
 }

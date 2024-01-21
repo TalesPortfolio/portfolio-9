@@ -1,6 +1,8 @@
 import GlobalStyle, { Container } from './styles'
 import Header from '../src/Components/Header'
 import SectionHome from './Components/SectionHome'
+import AboutStyle from './Components/About'
+import ETabsPage from './Components/Experience'
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <GlobalStyle />
       <Header />
       <SectionHome />
+      <AboutStyle />
+      <ETabsPage />
     </>
   )
 }

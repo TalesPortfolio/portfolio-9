@@ -4,6 +4,7 @@ import { Color } from '../../styles'
 export const Nav = styled.nav`
   position: fixed;
   top: 0;
+  z-index: 1000;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -31,5 +32,22 @@ export const Nav = styled.nav`
   a {
     color: #fff;
     font-weight: bold;
+    position: relative; /* Adicione position: relative para que a posição absoluta seja relativa ao link */
+  }
+
+  a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px; /* Altura da borda */
+    background-color: ${Color.colorTitle}; /* Use a cor da variável de estilo */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease; /* Transição suave da largura */
+  }
+
+  a:hover::after {
+    width: 100%;
   }
 `

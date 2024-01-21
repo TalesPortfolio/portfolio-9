@@ -17,12 +17,25 @@ const StyledButton = styled.button<ButtonProps>`
     background-color: #40e0d969;
     font-weight: bold;
   }
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    margin-right: 0px;
+    margin: 5px;
+  }
 `
 export const StyleLink = styled.a`
   color: #fff;
   img {
     width: 20px;
     margin-right: 10px;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      margin-right: 5px;
+      width: 14px;
+    }
   }
 `
 

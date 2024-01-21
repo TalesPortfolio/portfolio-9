@@ -2,8 +2,8 @@ import React, { ReactNode, MouseEventHandler } from 'react'
 import StyledButton from './styles'
 
 interface MyButtonProps {
-  onClick: MouseEventHandler<HTMLButtonElement>
-  children: ReactNode
+  onClick?: MouseEventHandler<HTMLButtonElement>
+  children?: ReactNode
   border?: string
 }
 
