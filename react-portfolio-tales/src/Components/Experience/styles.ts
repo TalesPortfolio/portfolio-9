@@ -74,4 +74,8 @@ export const ContainerProject = styled.div`
   display: flex;
   max-width: 1024px;
   width: 100%;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
