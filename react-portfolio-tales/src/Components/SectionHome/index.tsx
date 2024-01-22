@@ -52,7 +52,7 @@ const SectionHome = () => {
           </AlingButton>
         </Description>
         <DivImage>
-          <img src="/images/dev2.svg" alt="Developer" />
+          <img src="/images/dev.gif" alt="Developer" />
         </DivImage>
       </Container>
       <SpanScroll>

@@ -30,6 +30,15 @@ const growImage = keyframes`
   }
 `
 
+const blobAnimation = keyframes`
+0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+`
+
 export const Home = styled.section`
   display: flex;
   flex-direction: column;
@@ -81,10 +90,15 @@ export const Description = styled.div`
 `
 
 export const DivImage = styled.div`
-  display: flex;
+  /*display: flex;
   flex-direction: row;
   justify-content: center;
-  flex: 50%;
+  flex: 50%;*/
+  background-color: #3498db; /* Cor de fundo da bolha */
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  animation: blobAnimation 5s infinite alternate;
 
   img {
     width: 500px;
