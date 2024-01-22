@@ -39,6 +39,12 @@ export const TabsButton = styled.div`
       background-color: ${Color.bg1};
       cursor: pointer;
     }
+
+    &.active {
+      border-left: 2px solid #007bff; /* Cor da borda da aba ativa */
+      background-color: #272727; /* Cor de fundo da aba ativa, se desejar */
+      color: #fff; /* Cor do texto da aba ativa */
+    }
     @media (max-width: 768px) {
       width: 60vw;
       border-left: none;
