@@ -10,3 +10,7 @@ export const Span = styled.span`
     color: #fff;
   }
 `
+
+export const Link = styled.a`
+  color: white;
+`

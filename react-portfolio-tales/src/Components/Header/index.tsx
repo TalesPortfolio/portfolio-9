@@ -1,10 +1,12 @@
-import { Nav } from './styles'
+import { Nav, Img } from './styles'
 import { Container } from '../../styles'
 
 const Header = () => (
   <Nav>
     <Container>
-      <h2>&lt;TL/&gt;</h2>
+      <h2>
+        <Img src="images/logo.png" alt="" />
+      </h2>
       <ul>
         <li>
           {/* Adicione o identificador "home" à seção Home */}

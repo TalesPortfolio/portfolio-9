@@ -49,7 +49,7 @@ const Experience = () => {
               seeking opportunities in independent projects, freelancing, and
               volunteering to enhance my skills. My goal is to continuously
               absorb knowledge, building not only technical competencies but
-              also fostering a mindset geared towards innovative solutions.
+              also Develop a mindset geared towards innovative solutions.
             </P>
 
             <P>

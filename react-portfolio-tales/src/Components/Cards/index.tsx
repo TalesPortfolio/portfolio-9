@@ -1,4 +1,4 @@
-import { Card, Span } from './styles'
+import { Card, Span, Link } from './styles'
 import { P, H2 } from '../About/styles'
 import MyButton2 from '../Button'
 import { Color } from '../../styles'
@@ -20,9 +20,9 @@ const Cards = (props: Props) => (
 
     <MyButton2 border={`2px solid ${Color.bordBtn2}`}>
       {' '}
-      <a href={props.link} target="_blank" rel="noreferrer">
+      <Link href={props.link} target="_blank" rel="noreferrer">
         View
-      </a>{' '}
+      </Link>{' '}
     </MyButton2>
   </Card>
 )
