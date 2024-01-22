@@ -26,13 +26,11 @@ export const ProjectStyle = styled.section`
 `
 
 export const ContainerCards = styled.div`
-  border: 2px solid ${Color.destaqueParagrafo};
-  border-radius: 10px;
   width: 300px;
   margin: 20px;
   overflow: hidden;
   position: relative;
-  background-color: #4876ff;
+  background-color: transparent;
 
   @media (max-width: 768px) {
     margin: 0px;
@@ -42,13 +40,13 @@ export const ContainerCards = styled.div`
   img {
     height: 180px;
     width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
 
     &:hover {
       transform: scale(1.1); /* Define a escala desejada ao passar o mouse */
+      cursor: pointer;
     }
 
     @media (max-width: 768px) {

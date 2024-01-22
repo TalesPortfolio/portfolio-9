@@ -7,6 +7,6 @@ export const Card = styled.div`
 `
 export const Span = styled.span`
   p {
-    color: #000;
+    color: #fff;
   }
 `

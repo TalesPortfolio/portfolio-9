@@ -8,7 +8,7 @@ export const Color = {
   bordBtn1: '#8D277C',
   bordBtn2: '#5099EC',
   destaqueParagrafo: '#106FAB',
-  paragrafo: '#c4c4c4'
+  paragrafo: '#fff'
 }
 
 export const Container = styled.div`

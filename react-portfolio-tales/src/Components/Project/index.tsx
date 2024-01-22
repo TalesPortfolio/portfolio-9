@@ -10,49 +10,54 @@ const Project = () => (
         <Cards
           link="https://space-x-mauve.vercel.app/"
           h2="Clone SpaceX"
-          tecnologia="Technologies used in the project: HTML, SAAS BOOTSTRAP and JS.
+          tecnologia="Technologies used in the project: HTML, Sass, Bootstrap, JavaScript.
 "
         />
       </ContainerCards>
       <ContainerCards>
-        <img src="//placehold.it/396x180" />
+        <img src="/images/github.jpg" />
         <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
+          link="https://searching-git.vercel.app/"
+          h2="Search Git-User"
+          tecnologia="Technologies used in the project: HTML, CSS, Bootstrap, TypeScript, Vite.
 "
         />
       </ContainerCards>
       <ContainerCards>
-        <img src="//placehold.it/396x180" />
+        <img src="images/massaMuscular.jpg" />
         <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
+          link="https://www.robertocoach.lu/"
+          h2="robertocoach.lu"
+          tecnologia="Technologies used in the project: HTML, Sass, JavaScript, Gulp.js.
 "
         />
       </ContainerCards>
     </Container>
     <Container>
       <ContainerCards>
-        <img src="//placehold.it/396x180" />
+        <img src="/images/disney.webp" />
         <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
+          link="https://cloney-disneyplus.vercel.app/"
+          h2="Clone Disney+"
+          tecnologia="Technologies used in the project: HTML, Sass, JavaScript, Gulp.js.
 "
         />
       </ContainerCards>
       <ContainerCards>
-        <img src="//placehold.it/396x180" />
+        <img src="/images/whisky.jpg" />
         <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
+          link="https://fabricio-ten.vercel.app/"
+          h2="Drinks deposit"
+          tecnologia="Technologies used in the project: HTML, Sass, JavaScript.
 "
         />
       </ContainerCards>
       <ContainerCards>
-        <img src="//placehold.it/396x180" />
+        <img src="/images/resto.png" />
         <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
+          link="https://resto-lux.vercel.app/"
+          h2="Restaurant"
+          tecnologia="Technologies used in the project: HTML, Sass, JavaScript.
 "
         />
       </ContainerCards>

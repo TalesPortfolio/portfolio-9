@@ -15,7 +15,7 @@ const StyledButton = styled.button<ButtonProps>`
   color: #fff;
 
   &:hover {
-    background-color: #40e0d969;
+    background-color: #1e90ff;
     font-weight: bold;
   }
 
