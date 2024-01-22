@@ -6,6 +6,7 @@ export const Footer = styled.section`
   text-align: center;
   background-color: ${Color.bg2};
   padding: 20px;
+  border-top: 2px solid #272727;
 
   p {
     font-size: 16px;
