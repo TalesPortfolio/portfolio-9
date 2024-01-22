@@ -3,7 +3,7 @@ import Cards from '../Cards'
 
 const Project = () => (
   <ProjectStyle id="project">
-    <h3>Projects</h3>
+    <h3 style={{ padding: '15px' }}>Projects</h3>
     <Container>
       <ContainerCards>
         <img src="./images/spacex.jpg" />
