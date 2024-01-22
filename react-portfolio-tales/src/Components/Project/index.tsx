@@ -61,30 +61,6 @@ const Project = () => (
 "
         />
       </ContainerCards>
-      <ContainerCards>
-        <img src="//placehold.it/396x180" />
-        <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="//placehold.it/396x180" />
-        <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="//placehold.it/396x180" />
-        <Cards
-          h2="Nome do Projetos1"
-          tecnologia="Tecnologias usadas no projeto: HTML, CSS e JS.
-"
-        />
-      </ContainerCards>
     </Container>
   </ProjectStyle>
 )
