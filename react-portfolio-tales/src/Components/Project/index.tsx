@@ -24,6 +24,15 @@ const Project = () => (
         />
       </ContainerCards>
       <ContainerCards>
+        <img src="/images/game.webp" />
+        <Cards
+          link="https://games-redux-three.vercel.app/"
+          h2="Game store"
+          tecnologia="Technologies used in the project: HTML, styled-components, TypeScript, React, Redux.
+"
+        />
+      </ContainerCards>
+      <ContainerCards>
         <img src="images/massaMuscular.jpg" />
         <Cards
           link="https://www.robertocoach.lu/"
@@ -32,23 +41,12 @@ const Project = () => (
 "
         />
       </ContainerCards>
-    </Container>
-    <Container>
       <ContainerCards>
         <img src="/images/disney.webp" />
         <Cards
           link="https://cloney-disneyplus.vercel.app/"
           h2="Clone Disney+"
           tecnologia="Technologies used in the project: HTML, Sass, JavaScript, Gulp.js.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="/images/whisky.jpg" />
-        <Cards
-          link="https://fabricio-ten.vercel.app/"
-          h2="Drinks deposit"
-          tecnologia="Technologies used in the project: HTML, Sass, JavaScript.
 "
         />
       </ContainerCards>
