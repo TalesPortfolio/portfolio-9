@@ -53,7 +53,7 @@ const Experience = () => {
             </P>
 
             <P>
-              I aim to learn from each experience, establish a solid foundation,
+              I am to learn from each experience, establish a solid foundation,
               and contribute to meaningful causes that positively impact the
               world. I am open to collaborations that provide enriching
               exchanges, and I am eager to embark on this thrilling
