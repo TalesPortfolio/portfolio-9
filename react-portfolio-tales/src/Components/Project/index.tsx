@@ -26,7 +26,7 @@ const Project = () => (
       <ContainerCards>
         <img src="/images/game.webp" />
         <Cards
-          link="https://games-redux-three.vercel.app/"
+          link="https://games-liart-zeta.vercel.app/"
           h2="Game store"
           tecnologia="Technologies used in the project: HTML, styled-components, TypeScript, React, Redux.
 "
