@@ -14,3 +14,8 @@ export const Span = styled.span`
 export const Link = styled.a`
   color: white;
 `
+export const Descrisao = styled.h4`
+  color: ${Color.destaqueParagrafo};
+  font-size: 18px;
+  padding-bottom: 5px;
+`

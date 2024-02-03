@@ -10,7 +10,8 @@ const Project = () => (
         <Cards
           link="https://space-x-mauve.vercel.app/"
           h2="Clone SpaceX"
-          tecnologia="Technologies used in the project: HTML, Sass, Bootstrap, JavaScript.
+          descricao="Technologies used in the project:"
+          tecnologia=" HTML, Sass, Bootstrap, JavaScript.
 "
         />
       </ContainerCards>
@@ -19,7 +20,8 @@ const Project = () => (
         <Cards
           link="https://searching-git.vercel.app/"
           h2="Search Git-User"
-          tecnologia="Technologies used in the project: HTML, CSS, Bootstrap, TypeScript, Vite.
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, CSS, Bootstrap, TypeScript, Vite.
 "
         />
       </ContainerCards>
@@ -28,7 +30,8 @@ const Project = () => (
         <Cards
           link="https://games-liart-zeta.vercel.app/"
           h2="Game store"
-          tecnologia="Technologies used in the project: HTML, styled-components, TypeScript, React, Redux.
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, styled-components, TypeScript, React, Redux.
 "
         />
       </ContainerCards>
@@ -37,7 +40,8 @@ const Project = () => (
         <Cards
           link="https://www.robertocoach.lu/"
           h2="robertocoach.lu"
-          tecnologia="Technologies used in the project: HTML, Sass, JavaScript, Gulp.js.
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, Sass, JavaScript, Gulp.js.
 "
         />
       </ContainerCards>
@@ -46,7 +50,8 @@ const Project = () => (
         <Cards
           link="https://cloney-disneyplus.vercel.app/"
           h2="Clone Disney+"
-          tecnologia="Technologies used in the project: HTML, Sass, JavaScript, Gulp.js.
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, Sass, JavaScript, Gulp.js.
 "
         />
       </ContainerCards>
@@ -55,7 +60,8 @@ const Project = () => (
         <Cards
           link="https://resto-lux.vercel.app/"
           h2="Restaurant"
-          tecnologia="Technologies used in the project: HTML, Sass, JavaScript.
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, Sass, JavaScript.
 "
         />
       </ContainerCards>

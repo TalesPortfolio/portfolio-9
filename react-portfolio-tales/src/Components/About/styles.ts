@@ -50,7 +50,7 @@ export const TextAbout = styled.div`
 `
 export const P = styled.p`
   margin-bottom: 16px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 20px;
   color: ${Color.paragrafo};
 
