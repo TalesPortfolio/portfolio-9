@@ -8,7 +8,7 @@ import MyButton2 from '../Button'
 const About = () => (
   <AboutStyle id="about">
     <ImagenDiv>
-      <img src="/images/fotoAbout.jpeg" alt="foto perfil Tales" />
+      <img src="/images/perfil.png" alt="foto perfil Tales" />
     </ImagenDiv>
     <TextAbout>
       <H2>ABOUT ME</H2>
