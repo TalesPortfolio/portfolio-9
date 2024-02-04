@@ -26,12 +26,12 @@ const Project = () => (
         />
       </ContainerCards>
       <ContainerCards>
-        <img src="/images/game.webp" />
+        <img src="/images/Movies.webp" />
         <Cards
-          link="https://games-liart-zeta.vercel.app/"
-          h2="Game store"
+          link="https://search-tv-show.vercel.app/"
+          h2="Wat Watch"
           descricao="Technologies used in the project:"
-          tecnologia="HTML, styled-components, TypeScript, React, Redux.
+          tecnologia="HTML, styles-module, JavaScrit, React.
 "
         />
       </ContainerCards>
