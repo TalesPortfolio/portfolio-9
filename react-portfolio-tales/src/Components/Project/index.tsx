@@ -65,6 +65,16 @@ const Project = () => (
 "
         />
       </ContainerCards>
+      <ContainerCards>
+        <img src="/images/to-do-lists.jpeg" />
+        <Cards
+          link="https://bloco-note.vercel.app/"
+          h2="Mes tâches "
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, TypeScript, React, Styled Components.
+"
+        />
+      </ContainerCards>
     </Container>
   </ProjectStyle>
 )
