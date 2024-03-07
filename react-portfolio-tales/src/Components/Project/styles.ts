@@ -43,6 +43,7 @@ export const ContainerCards = styled.div`
     border-radius: 10px;
     object-fit: cover;
     transition: transform 0.3s ease;
+    box-shadow: 0px 20px 50px -25px rgba(0, 115, 255, 0.925);
 
     &:hover {
       transform: scale(1.1); /* Define a escala desejada ao passar o mouse */

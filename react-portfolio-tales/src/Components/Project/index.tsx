@@ -6,6 +6,26 @@ const Project = () => (
     <h3 style={{ padding: '15px' }}>Projects</h3>
     <Container>
       <ContainerCards>
+        <img src="/images/C.jpg" />
+        <Cards
+          link="https://library-in-c.vercel.app/"
+          h2="Library in c"
+          descricao="Technologies used in the project:"
+          tecnologia="React ,React Redux, React Router DOM, Styled Components.
+"
+        />
+      </ContainerCards>
+      <ContainerCards>
+        <img src="/images/to-do-lists.jpeg" />
+        <Cards
+          link="https://bloco-note.vercel.app/"
+          h2="Mes tâches "
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, TypeScript, React, Styled Components.
+"
+        />
+      </ContainerCards>
+      <ContainerCards>
         <img src="./images/spacex.jpg" />
         <Cards
           link="https://space-x-mauve.vercel.app/"
@@ -62,16 +82,6 @@ const Project = () => (
           h2="Restaurant"
           descricao="Technologies used in the project:"
           tecnologia="HTML, Sass, JavaScript.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="/images/to-do-lists.jpeg" />
-        <Cards
-          link="https://bloco-note.vercel.app/"
-          h2="Mes tâches "
-          descricao="Technologies used in the project:"
-          tecnologia="HTML, TypeScript, React, Styled Components.
 "
         />
       </ContainerCards>
