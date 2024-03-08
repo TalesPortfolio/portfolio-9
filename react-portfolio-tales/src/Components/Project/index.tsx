@@ -8,7 +8,7 @@ const Project = () => (
       <ContainerCards>
         <img src="/images/C.jpg" />
         <Cards
-          link="https://library-in-c.vercel.app/"
+          link="https://libft-c.com/"
           h2="Library in c"
           descricao="Technologies used in the project:"
           tecnologia="React ,React Redux, React Router DOM, Styled Components.
