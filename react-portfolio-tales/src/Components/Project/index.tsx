@@ -85,6 +85,16 @@ const Project = () => (
 "
         />
       </ContainerCards>
+      <ContainerCards>
+        <img src="/images/grammy2.png" />
+        <Cards
+          link="https://grammy-opal.vercel.app/"
+          h2="Grammy Awards"
+          descricao="Technologies used in the project:"
+          tecnologia="Solidity, Web3.js, MetaMask, Foundry, Next.js, TypeScript, .
+"
+        />
+      </ContainerCards>
     </Container>
   </ProjectStyle>
 )
