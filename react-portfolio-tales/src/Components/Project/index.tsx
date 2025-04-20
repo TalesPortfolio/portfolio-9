@@ -98,7 +98,7 @@ const Project = () => (
       <ContainerCards>
         <img src="/images/IPFS.jpg" />
         <Cards
-          link="https://crypto-salve.vercel.app/en"
+          link="https://cryptosalve-a.vercel.app/en"
           h2="CriptoSalve"
           descricao="Technologies used in the project:"
           tecnologia="Next.js, TypeScript, styled-components, Express.js, Sequelize, PostgreSQL, IPFS, Pinata, Web3.js"
