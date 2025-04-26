@@ -104,6 +104,18 @@ const Project = () => (
           tecnologia="Next.js, TypeScript, styled-components, Express.js, Sequelize, PostgreSQL, IPFS, Pinata, Web3.js"
         />
       </ContainerCards>
+      <ContainerCards>
+        <img src="/images/reminders3.png" alt="Reminders App" />
+        <Cards
+          link="https://reminders-app-sage.vercel.app/"
+          h2="Reminders App"
+          descricao="Full-stack reminder & notification app:"
+          tecnologia={`Next.js, React, TypeScript, Styled-Components Node.js, Express, TypeScript, Prisma, PostgreSQL
+        JWT, Bcrypt, Zod
+        Nodemailer (e-mail), Twilio (WhatsApp), cron jobs
+        Docker, Vercel`}
+        />
+      </ContainerCards>
     </Container>
   </ProjectStyle>
 )
