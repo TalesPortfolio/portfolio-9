@@ -6,6 +6,37 @@ const Project = () => (
     <h3 style={{ padding: '15px' }}>Projects</h3>
     <Container>
       <ContainerCards>
+        <img src="/images/reminders3.png" alt="Reminders App" />
+        <Cards
+          link="https://reminders-app-sage.vercel.app/"
+          h2="Reminders App"
+          descricao="Full-stack reminder & notification app:"
+          tecnologia={`Next.js, React, TypeScript, Styled-Components Node.js, Express, TypeScript, Prisma, PostgreSQL
+        JWT, Bcrypt, Zod
+        Nodemailer (e-mail), Twilio (WhatsApp), cron jobs
+        Docker, Vercel`}
+        />
+      </ContainerCards>
+      <ContainerCards>
+        <img src="/images/disney.webp" />
+        <Cards
+          link="https://cloney-disneyplus.vercel.app/"
+          h2="Clone Disney+"
+          descricao="Technologies used in the project:"
+          tecnologia="HTML, Sass, JavaScript, Gulp.js.
+"
+        />
+      </ContainerCards>
+      <ContainerCards>
+        <img src="/images/govtechlab.png" />
+        <Cards
+          link="https://govtechlab.vercel.app/"
+          h2="🏛️ GovTechLab"
+          descricao="GovTechLab is a web project that makes government data more accessible and interactive"
+          tecnologia="Technologies: Next.js 15, React 19, TypeScript, Styled Components, Recharts, XLSX, Axios, camelcase-keys, ts-node"
+        />
+      </ContainerCards>
+      <ContainerCards>
         <img src="/images/C.jpg" />
         <Cards
           link="https://library-in-c.vercel.app/Printf"
@@ -66,16 +97,6 @@ const Project = () => (
         />
       </ContainerCards>
       <ContainerCards>
-        <img src="/images/disney.webp" />
-        <Cards
-          link="https://cloney-disneyplus.vercel.app/"
-          h2="Clone Disney+"
-          descricao="Technologies used in the project:"
-          tecnologia="HTML, Sass, JavaScript, Gulp.js.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
         <img src="/images/resto.png" />
         <Cards
           link="https://resto-lux.vercel.app/"
@@ -102,18 +123,6 @@ const Project = () => (
           h2="CriptoSalve"
           descricao="Technologies used in the project:"
           tecnologia="Next.js, TypeScript, styled-components, Express.js, Sequelize, PostgreSQL, IPFS, Pinata, Web3.js"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="/images/reminders3.png" alt="Reminders App" />
-        <Cards
-          link="https://reminders-app-sage.vercel.app/"
-          h2="Reminders App"
-          descricao="Full-stack reminder & notification app:"
-          tecnologia={`Next.js, React, TypeScript, Styled-Components Node.js, Express, TypeScript, Prisma, PostgreSQL
-        JWT, Bcrypt, Zod
-        Nodemailer (e-mail), Twilio (WhatsApp), cron jobs
-        Docker, Vercel`}
         />
       </ContainerCards>
     </Container>
