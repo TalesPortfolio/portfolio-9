@@ -40,7 +40,7 @@ const Project = () => (
         <img src="/images/joias.jpg" />
         <Cards
           link="https://golden-charm-mu.vercel.app/en"
-          h2="Library in c"
+          h2="Golden Charm"
           descricao="Golden Charm is a multilingual, responsive website currently under construction, focused on elegant UI and smooth user experience."
           tecnologia="Technologies: Next.js 15, React 19, Bootstrap 5, React-Bootstrap, Tailwind CSS, Styled Components, react-slick, react-icons, next-intl"
         />
