@@ -6,11 +6,26 @@ const Project = () => (
     <h3 style={{ padding: '15px' }}>Projects</h3>
     <Container>
       <ContainerCards>
+        {/* Lux Store Games */}
+        <img src="/images/GameFi.jpg" alt="Lux Store Games" />
+        <Cards
+          link="https://luxgames-git-main-talesportfolios-projects.vercel.app/"
+          h2="Lux Store Games"
+          descricao={'Technologies:'}
+          tecnologia={`Hardhat, Solidity (ERC-20), OpenZeppelin
+Next.js, React, TypeScript, styled-components
+Ethers.js (BrowserProvider), Alchemy (RPC)
+Hardhat Ignition, TypeChain
+Next.js API Routes for token rewards
+Deployed on Sepolia testnet & Vercel`}
+        />
+      </ContainerCards>
+      <ContainerCards>
         <img src="/images/reminders3.png" alt="Reminders App" />
         <Cards
           link="https://reminders-app-sage.vercel.app/"
           h2="Reminders App"
-          descricao="Full-stack reminder & notification app:"
+          descricao={'Technologies:'}
           tecnologia={`Next.js, React, TypeScript, Styled-Components Node.js, Express, TypeScript, Prisma, PostgreSQL
         JWT, Bcrypt, Zod
         Nodemailer (e-mail), Twilio (WhatsApp), cron jobs
@@ -22,7 +37,7 @@ const Project = () => (
         <Cards
           link="https://cloney-disneyplus.vercel.app/"
           h2="Clone Disney+"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="HTML, Sass, JavaScript, Gulp.js.
 "
         />
@@ -32,8 +47,8 @@ const Project = () => (
         <Cards
           link="https://govtechlab.vercel.app/"
           h2="🏛️ GovTechLab"
-          descricao="GovTechLab is a web project that makes government data more accessible and interactive"
-          tecnologia="Technologies: Next.js 15, React 19, TypeScript, Styled Components, Recharts, XLSX, Axios, camelcase-keys, ts-node"
+          descricao={'Technologies:'}
+          tecnologia="Next.js 15, React 19, TypeScript, Styled Components, Recharts, XLSX, Axios, camelcase-keys, ts-node"
         />
       </ContainerCards>
       <ContainerCards>
@@ -41,8 +56,8 @@ const Project = () => (
         <Cards
           link="https://golden-charm-mu.vercel.app/en"
           h2="Golden Charm"
-          descricao="Golden Charm is a multilingual, responsive website currently under construction, focused on elegant UI and smooth user experience."
-          tecnologia="Technologies: Next.js 15, React 19, Bootstrap 5, React-Bootstrap, Tailwind CSS, Styled Components, react-slick, react-icons, next-intl"
+          descricao={'Technologies:'}
+          tecnologia="Next.js 15, React 19, Bootstrap 5, React-Bootstrap, Tailwind CSS, Styled Components, react-slick, react-icons, next-intl"
         />
       </ContainerCards>
       <ContainerCards>
@@ -50,7 +65,7 @@ const Project = () => (
         <Cards
           link="https://library-in-c.vercel.app/Printf"
           h2="Library in c"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="React ,React Redux, React Router DOM, Styled Components.
 "
         />
@@ -60,7 +75,7 @@ const Project = () => (
         <Cards
           link="https://bloco-note.vercel.app/"
           h2="Mes tâches "
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="HTML, TypeScript, React, Styled Components.
 "
         />
@@ -70,7 +85,7 @@ const Project = () => (
         <Cards
           link="https://space-x-mauve.vercel.app/"
           h2="Clone SpaceX"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia=" HTML, Sass, Bootstrap, JavaScript.
 "
         />
@@ -80,7 +95,7 @@ const Project = () => (
         <Cards
           link="https://searching-git.vercel.app/"
           h2="Search Git-User"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="HTML, CSS, Bootstrap, TypeScript, Vite.
 "
         />
@@ -90,18 +105,8 @@ const Project = () => (
         <Cards
           link="https://search-tv-show.vercel.app/"
           h2="Wat Watch"
-          descricao="Technologies used in the project:"
+          descricao="Technologies:"
           tecnologia="HTML, styles-module, JavaScrit, React.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="images/massaMuscular.jpg" />
-        <Cards
-          link="https://www.robertocoach.lu/"
-          h2="robertocoach.lu"
-          descricao="Technologies used in the project:"
-          tecnologia="HTML, Sass, JavaScript, Gulp.js.
 "
         />
       </ContainerCards>
@@ -110,7 +115,7 @@ const Project = () => (
         <Cards
           link="https://resto-lux.vercel.app/"
           h2="Restaurant"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="HTML, Sass, JavaScript.
 "
         />
@@ -120,7 +125,7 @@ const Project = () => (
         <Cards
           link="https://grammy-opal.vercel.app/"
           h2="Grammy Awards"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="Solidity, Web3.js, MetaMask, Foundry, Next.js, TypeScript, .
 "
         />
@@ -130,7 +135,7 @@ const Project = () => (
         <Cards
           link="https://cryptosalve-a.vercel.app/en"
           h2="CriptoSalve"
-          descricao="Technologies used in the project:"
+          descricao={'Technologies:'}
           tecnologia="Next.js, TypeScript, styled-components, Express.js, Sequelize, PostgreSQL, IPFS, Pinata, Web3.js"
         />
       </ContainerCards>
