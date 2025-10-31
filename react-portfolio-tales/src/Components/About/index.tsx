@@ -48,6 +48,14 @@ const About = () => (
             <img src="/images/instagram.webp" alt="" /> Instagran
           </StyleLink>
         </MyButton>
+        <MyButton>
+          <StyleLink
+            href="https://www.linkedin.com/in/tales-lima-de-paula/"
+            target="_blank"
+          >
+            <img src="/images/linkedin.png" alt="" /> Linked-in
+          </StyleLink>
+        </MyButton>
         <MyButton2 border={`2px solid ${Color.bordBtn2}`}>
           <StyleLink href="mailto:tales_lima_1982@hotmail.com?subject=Portfolio&body=Corpo do E-mail">
             {' '}
