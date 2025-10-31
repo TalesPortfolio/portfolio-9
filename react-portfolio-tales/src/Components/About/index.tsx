@@ -12,7 +12,7 @@ const About = () => (
     </ImagenDiv>
     <TextAbout>
       <H2>ABOUT ME</H2>
-      <H4>Grevenmacher, Luxembourg</H4>
+      <H4>Hosingen, Luxembourg</H4>
       <P>
         Hello! My name is Tales Lima, and I am a programming enthusiast with
         three years of experience in the field. Currently, I am embarking on an
