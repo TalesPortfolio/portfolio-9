@@ -26,48 +26,46 @@ export const ProjectStyle = styled.section`
 `
 
 export const ContainerCards = styled.div`
-  width: 300px;
-  margin: 20px;
+  width: 100%;
   overflow: hidden;
   position: relative;
   background-color: transparent;
-
-  @media (max-width: 768px) {
-    margin: 0px;
-    margin-bottom: 20px;
-  }
+  display: flex;
+  flex-direction: column;
 
   img {
-    height: 180px;
+    height: 200px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
     object-fit: cover;
-    transition: transform 0.3s ease;
-    box-shadow: 0px 20px 50px -25px rgba(0, 115, 255, 0.925);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 10px 30px rgba(0, 115, 255, 0.4);
+    border: 2px solid rgba(0, 115, 255, 0.3);
 
     &:hover {
-      transform: scale(1.1); /* Define a escala desejada ao passar o mouse */
+      transform: scale(1.05) translateY(-5px);
       cursor: pointer;
-    }
-
-    @media (max-width: 768px) {
-      width: 300px;
+      box-shadow: 0px 20px 50px rgba(0, 115, 255, 0.6);
+      border-color: rgba(0, 115, 255, 0.6);
     }
   }
 `
 
 export const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  padding: 20px;
 
   @media (min-width: 769px) and (max-width: 1024px) {
-    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
   }
 
   @media (max-width: 768px) {
-    display: block;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
   }
 `

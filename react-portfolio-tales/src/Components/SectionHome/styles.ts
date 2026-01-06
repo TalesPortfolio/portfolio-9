@@ -18,26 +18,6 @@ const arrowAnimation = keyframes`
     opacity: 0;
   }
 `
-const growImage = keyframes`
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
-`
-
-const blobAnimation = keyframes`
-0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.1);
-  }
-`
 
 export const Home = styled.section`
   display: flex;
@@ -90,15 +70,10 @@ export const Description = styled.div`
 `
 
 export const DivImage = styled.div`
-  /*display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex: 50%;*/
-  background-color: #3498db; /* Cor de fundo da bolha */
+  background-color: #3498db;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  animation: blobAnimation 5s infinite alternate;
 
   img {
     width: 500px;
@@ -114,7 +89,7 @@ export const DivImage = styled.div`
   }
 
   &:hover img {
-    transform: scale(1.1); /* Aumentando a escala no hover */
+    transform: scale(1.1);
   }
 
   @media (max-width: 768px) {

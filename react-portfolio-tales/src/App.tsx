@@ -1,4 +1,4 @@
-import GlobalStyle, { Container } from './styles'
+import GlobalStyle from './styles'
 import Header from '../src/Components/Header'
 import SectionHome from './Components/SectionHome'
 import AboutStyle from './Components/About'

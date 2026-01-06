@@ -6,18 +6,44 @@ const Project = () => (
     <h3 style={{ padding: '15px' }}>Projects</h3>
     <Container>
       <ContainerCards>
+        {/* Innocent Laços */}
+        <img src="/images/inocent.png" alt="Innocent Laços" />
+        <Cards
+          link="https://www.innocent-lacos.com/en"
+          h2="Innocent Laços"
+          descricao={'Technologies:'}
+          tecnologia={`Frontend: Next.js, React, TypeScript
+Styling: CSS Modules, Tailwind CSS
+Features: i18n (multilingual), PWA, React Suspense, Parallel Routing
+DevOps: Kubernetes, Docker, CI/CD
+Performance: SSR, Streaming, Code Splitting`}
+        />
+      </ContainerCards>
+      <ContainerCards>
+        {/* Certificate Vault */}
+        <img src="/images/certificate-vault.png" alt="Certificate Vault" />
+        <Cards
+          link="#"
+          h2="Certificate Vault"
+          descricao={'Technologies:'}
+          tecnologia={`Frontend: React 19, Vite, TypeScript, Styled Components, Redux Toolkit, i18n, NGINX
+Backend: Java 21, Spring Boot 4, Spring Security, JWT, PostgreSQL, OCR, PDF Processing
+Blockchain: Solidity (EVM), BNB Chain Mainnet
+DevOps: Docker, Kubernetes, ArgoCD, GitHub Actions, NGINX Ingress, Let's Encrypt`}
+        />
+      </ContainerCards>
+      <ContainerCards>
         {/* Lux Store Games */}
         <img src="/images/GameFi.jpg" alt="Lux Store Games" />
         <Cards
           link="https://luxgames-git-main-talesportfolios-projects.vercel.app/"
           h2="Lux Store Games"
           descricao={'Technologies:'}
-          tecnologia={`Hardhat, Solidity (ERC-20), OpenZeppelin
-Next.js, React, TypeScript, styled-components
-Ethers.js (BrowserProvider), Alchemy (RPC)
-Hardhat Ignition, TypeChain
-Next.js API Routes for token rewards
-Deployed on Sepolia testnet & Vercel`}
+          tecnologia={`Blockchain: Hardhat, Solidity (ERC-20), OpenZeppelin
+Frontend: Next.js, React, TypeScript, styled-components
+Integration: Ethers.js (BrowserProvider), Alchemy (RPC), Hardhat Ignition, TypeChain
+Backend: Next.js API Routes for token rewards
+Deployment: Sepolia testnet & Vercel`}
         />
       </ContainerCards>
       <ContainerCards>
@@ -26,10 +52,11 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://reminders-app-sage.vercel.app/"
           h2="Reminders App"
           descricao={'Technologies:'}
-          tecnologia={`Next.js, React, TypeScript, Styled-Components Node.js, Express, TypeScript, Prisma, PostgreSQL
-        JWT, Bcrypt, Zod
-        Nodemailer (e-mail), Twilio (WhatsApp), cron jobs
-        Docker, Vercel`}
+          tecnologia={`Frontend: Next.js, React, TypeScript, Styled-Components
+Backend: Node.js, Express, TypeScript, Prisma, PostgreSQL
+Security: JWT, Bcrypt, Zod
+Notifications: Nodemailer (e-mail), Twilio (WhatsApp), cron jobs
+Deployment: Docker, Vercel`}
         />
       </ContainerCards>
       <ContainerCards>
@@ -38,8 +65,9 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://cloney-disneyplus.vercel.app/"
           h2="Clone Disney+"
           descricao={'Technologies:'}
-          tecnologia="HTML, Sass, JavaScript, Gulp.js.
-"
+          tecnologia="Frontend: HTML5, JavaScript
+Styling: Sass (SCSS)
+Build Tool: Gulp.js"
         />
       </ContainerCards>
       <ContainerCards>
@@ -48,7 +76,8 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://govtechlab.vercel.app/"
           h2="🏛️ GovTechLab"
           descricao={'Technologies:'}
-          tecnologia="Next.js 15, React 19, TypeScript, Styled Components, Recharts, XLSX, Axios, camelcase-keys, ts-node"
+          tecnologia="Frontend: Next.js 15, React 19, TypeScript, Styled Components
+Libraries: Recharts, XLSX, Axios, camelcase-keys, ts-node"
         />
       </ContainerCards>
       <ContainerCards>
@@ -57,27 +86,33 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://golden-charm-mu.vercel.app/en"
           h2="Golden Charm"
           descricao={'Technologies:'}
-          tecnologia="Next.js 15, React 19, Bootstrap 5, React-Bootstrap, Tailwind CSS, Styled Components, react-slick, react-icons, next-intl"
+          tecnologia="Frontend: Next.js 15, React 19
+Styling: Bootstrap 5, React-Bootstrap, Tailwind CSS, Styled Components
+Features: react-slick, react-icons, next-intl (i18n)"
         />
       </ContainerCards>
       <ContainerCards>
         <img src="/images/C.jpg" />
         <Cards
           link="https://library-in-c.vercel.app/Printf"
-          h2="Library in c"
+          h2="Library in C"
           descricao={'Technologies:'}
-          tecnologia="React ,React Redux, React Router DOM, Styled Components.
-"
+          tecnologia="Frontend: React, JavaScript
+State Management: React Redux
+Routing: React Router DOM
+Styling: Styled Components
+Analytics: Google Analytics"
         />
       </ContainerCards>
       <ContainerCards>
         <img src="/images/to-do-lists.jpeg" />
         <Cards
           link="https://bloco-note.vercel.app/"
-          h2="Mes tâches "
+          h2="Mes tâches"
           descricao={'Technologies:'}
-          tecnologia="HTML, TypeScript, React, Styled Components.
-"
+          tecnologia="Frontend: React, TypeScript, HTML5
+Styling: Styled Components
+Type Safety: TypeScript"
         />
       </ContainerCards>
       <ContainerCards>
@@ -86,8 +121,9 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://space-x-mauve.vercel.app/"
           h2="Clone SpaceX"
           descricao={'Technologies:'}
-          tecnologia=" HTML, Sass, Bootstrap, JavaScript.
-"
+          tecnologia="Frontend: HTML5, JavaScript
+Styling: Sass, Bootstrap
+Libraries: AOS (Animate On Scroll)"
         />
       </ContainerCards>
       <ContainerCards>
@@ -96,8 +132,10 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://searching-git.vercel.app/"
           h2="Search Git-User"
           descricao={'Technologies:'}
-          tecnologia="HTML, CSS, Bootstrap, TypeScript, Vite.
-"
+          tecnologia="Frontend: HTML5, TypeScript
+Styling: CSS, Bootstrap
+Build Tool: Vite
+API Integration: GitHub API"
         />
       </ContainerCards>
       <ContainerCards>
@@ -106,8 +144,9 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://search-tv-show.vercel.app/"
           h2="Wat Watch"
           descricao="Technologies:"
-          tecnologia="HTML, styles-module, JavaScrit, React.
-"
+          tecnologia="Frontend: React, HTML5, JavaScript
+Styling: CSS Modules
+API Integration: Movie/TV Show API"
         />
       </ContainerCards>
       <ContainerCards>
@@ -116,18 +155,10 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://resto-lux.vercel.app/"
           h2="Restaurant"
           descricao={'Technologies:'}
-          tecnologia="HTML, Sass, JavaScript.
-"
-        />
-      </ContainerCards>
-      <ContainerCards>
-        <img src="/images/grammy2.png" />
-        <Cards
-          link="https://grammy-opal.vercel.app/"
-          h2="Grammy Awards"
-          descricao={'Technologies:'}
-          tecnologia="Solidity, Web3.js, MetaMask, Foundry, Next.js, TypeScript, .
-"
+          tecnologia="Frontend: HTML5, JavaScript
+Styling: Sass
+HTTP Client: Axios
+Backend Integration: REST API with JWT Authentication"
         />
       </ContainerCards>
       <ContainerCards>
@@ -136,7 +167,9 @@ Deployed on Sepolia testnet & Vercel`}
           link="https://cryptosalve-a.vercel.app/en"
           h2="CriptoSalve"
           descricao={'Technologies:'}
-          tecnologia="Next.js, TypeScript, styled-components, Express.js, Sequelize, PostgreSQL, IPFS, Pinata, Web3.js"
+          tecnologia="Frontend: Next.js, TypeScript, styled-components
+Backend: Express.js, Sequelize, PostgreSQL
+Blockchain: IPFS, Pinata, Web3.js"
         />
       </ContainerCards>
     </Container>
